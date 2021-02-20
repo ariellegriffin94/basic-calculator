@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page Title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="lesson2.css" />
+    <style>
+      p {
+        text-align: center;
+        color: red;
+      }
+      .internal-css {
+        text-align: right;
+        background-color: black;
+      }
+
+      #loan-div {
+        text-align: left;
+        margin: 50px;
+        font-size: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align:center;color:red;">Let's talk CSS</h1>
+    <p>
+      See the above html to see an example of inline-css. There are multiple
+      ways to add css to a webpage.
+    </p>
+    <p>
+      Internal CSS adds style to the a style tag within the head of the html
+      document
+    </p>
+    <p class="internal-css">
+      We can get more specific by assigning a specific id or class name to a
+      given element.
+    </p>
+    <p class="internal-css">
+      You can assign multiple elements to the same class. In fact it's most
+      common to give common elments the same class. you reference a class name
+      in css using .
+    </p>
+
+    <div id="loan-div">
+      Here's an element with an id. Id's can only be used for one element. You
+      reference an id in css using #
+    </div>
+
+    <div id="external-css">I'm a box now.</div>
+
+    <p>
+      Here's a
+      <a href="https://www.w3schools.com/css/css_syntax.asp">link</a> to some
+      basic css references.
+    </p>
+  </body>
+</html>
